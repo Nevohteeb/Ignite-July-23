@@ -9,6 +9,7 @@ import 'swiper/swiper.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Loading from './Loading'
 
 const CDDStudent = () => {
     const [loading, setLoading] = useState(true)
@@ -25,7 +26,7 @@ const CDDStudent = () => {
             .then(response => {
                 setStudent(response.data.students[index])
                 setProjects(response.data.students[index].projects)
-                setLoading(false)
+                setTimeout(() => setLoading(false), 2000);
             })
             .catch(error => {
                 console.log(error)
@@ -73,7 +74,7 @@ const CDDStudent = () => {
     }
     
     if (loading) {
-        return <>Loading...</>
+        return <><Loading/></>
     }
 
   return (
