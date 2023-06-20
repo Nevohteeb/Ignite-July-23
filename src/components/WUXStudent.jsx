@@ -22,7 +22,7 @@ const WUXStudent = () => {
     useEffect(() => {
         const index = (id - 1);
         AOS.init();
-        axios.get('public/WUX.json')
+        axios.get('./WUX.json')
             .then(response => {
                 setStudent(response.data.students[index])
                 setProjects(response.data.students[index].projects)

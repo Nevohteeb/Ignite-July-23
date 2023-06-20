@@ -11,7 +11,7 @@ const Cdd = () => {
 
     useEffect(() => {
         AOS.init();
-        axios.get('public/CDD.json')
+        axios.get('./CDD.json')
             .then(response => {
                 setStudents(response.data.students)
                 setTimeout(() => setLoading(false), 2000);

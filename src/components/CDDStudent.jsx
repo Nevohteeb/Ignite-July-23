@@ -21,7 +21,7 @@ const CDDStudent = () => {
     useEffect(() => {
         const index = (id - 1);
         AOS.init();
-        axios.get('public/CDD.json')
+        axios.get('./CDD.json')
             .then(response => {
                 setStudent(response.data.students[index])
                 setProjects(response.data.students[index].projects)
