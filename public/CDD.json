@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Adam Toh",
             "email": "johndoe@example.com",
-            "headshot": "public/headshots/test.jpg",
+            "headshot": "./headshots/test.jpg",
             "behance": "",
             "linkedin": "",
             "projects": [
