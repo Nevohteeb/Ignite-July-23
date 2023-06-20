@@ -11,10 +11,10 @@ const Wux = () => {
 
     useEffect(() => {
         AOS.init();
-        axios.get('public/WUX.json')
+        axios.get('./WUX.json')
             .then(response => {
                 setStudents(response.data.students)
-                setLoading(false)
+                setTimeout(() => setLoading(false), 2000);
             })
             .catch(error => {
                 console.log(error)
