@@ -115,6 +115,8 @@ const CDDStudent = () => {
                         <a href={student.linked_in} target="_blank"><i className="fa-brands fa-linkedin cdd-social-icons"></i></a>
                     </div>
 
+                    <p className="personal-blurb">{student.personal_blurb}</p>
+
                 </div>
                 {/* End of Personal Details */}
             </div>

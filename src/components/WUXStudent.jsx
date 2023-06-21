@@ -26,7 +26,7 @@ const WUXStudent = () => {
             .then(response => {
                 setStudent(response.data.students[index])
                 setProjects(response.data.students[index].projects)
-                setLoading(false)
+                setTimeout(() => setLoading(false), 2000);
             })
             .catch(error => {
                 console.log(error)
@@ -115,6 +115,8 @@ const WUXStudent = () => {
                         <a href={student.github} target="_blank"><i className="fa-brands fa-linkedin wux-social-icons"></i></a>
                         <a href={student.github} target="_blank"><i className="fa-solid fa-globe wux-social-icons"></i></a>
                     </div>
+
+                    <p className="personal-blurb">{student.personal_blurb}</p>
 
                 </div>
                 {/* End of Personal Details */}

@@ -4,10 +4,11 @@
             "id": 1,
             "name": "Christine Hudson",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/test.jpg",
             "github": "https://github.com/",
             "linkedin": "https://nz.linkedin.com/",
             "portfolio_link": "https://ignite.yoobeestudent.net/",
+            "personal_blurb": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
             "projects": [
                 {
                     "project_id": 1,

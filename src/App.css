@@ -15,7 +15,10 @@
 }
 
 body {
-  background: #1f1f1f;
+  background: url(../public/images/bg.jpg);
+  background-position: center;
+  background-repeat: none;
+  backdrop-filter: blur(5px);
   min-height: 100vh !important;
   min-width: 100vw !important;
 }
@@ -129,7 +132,7 @@ button:hover {
   content: '';
   display: block;
   width: 0;
-  height: 2px;
+  height: 3px;
   background: white;
   transition: width .5s;
 }
@@ -144,7 +147,7 @@ button:hover {
 /* Footer */
 .footer {
   padding: 10px 0;
-  background-color: #1f1e1f;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -167,7 +170,7 @@ button:hover {
 }
 .custom-loader {
   position: absolute;
-  top: 40%;
+  top: 30%;
   width: 200px;
   height: 200px;
   display: grid;
@@ -220,8 +223,8 @@ animation-timing-function: linear
 /* Student Image */
 
 .studentImageCDD {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   box-shadow: 5px 7px 20px 0px rgba(0,0,0,0.78);
   -webkit-box-shadow: 5px 7px 20px 0px rgba(0,0,0,0.78);
   -moz-box-shadow: 5px 7px 20px 0px rgba(0,0,0,0.78);
@@ -236,8 +239,8 @@ animation-timing-function: linear
 }
 
 .studentImageWUX {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   box-shadow: 5px 7px 20px 0px rgba(0,0,0,0.78);
   -webkit-box-shadow: 5px 7px 20px 0px rgba(0,0,0,0.78);
   -moz-box-shadow: 5px 7px 20px 0px rgba(0,0,0,0.78);
@@ -325,7 +328,7 @@ animation-timing-function: linear
 .personal-img-cont {
   width: 40%;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
 }
 
@@ -377,6 +380,13 @@ animation-timing-function: linear
   color: white;
   transition: color 0.4s ease;
 }
+
+.personal-blurb {
+  width: 75%;
+  padding: 30px 0px;
+}
+
+/* Projects */
 
 
 .project-title-container {
@@ -449,6 +459,8 @@ animation-timing-function: linear
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* Swiper */
 
 .carousel-image {
   width: 100%;
@@ -557,5 +569,14 @@ animation-timing-function: linear
     flex-direction: column;
   }
 
+  .personal-blurb {
+    width: 90%;
+  }
+
+  .studentImageWUX,
+  .studentImageCDD {
+    width: 300px;
+    height: 300px;
+  }
   
 }
