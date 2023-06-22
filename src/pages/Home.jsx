@@ -6,7 +6,7 @@ const Home = () => {
     
   return (
     <div className="home-container">
-        <img className="home-logo" src="./logos/Main_Logo_1.svg" alt="Ignite Logo" data-aos="fade-up" data-aos-duration="1500" />
+        <img className="home-logo" src="./logos/Main_Logo_2.svg" alt="Ignite Logo" data-aos="fade-up" data-aos-duration="1500" />
     </div>
   )
 }

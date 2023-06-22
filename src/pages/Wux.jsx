@@ -29,7 +29,7 @@ const Wux = () => {
                     <Link to={`/wux/${student.id}`}>
                         <img class="studentImageWUX" src={student.headshot} alt={student.name} />
                     </Link>
-                    <h4>{student.name.toUpperCase()}</h4>
+                    <h2>{student.name.toUpperCase()}</h2>
                 </div>
               </>
             )

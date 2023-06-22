@@ -12,6 +12,7 @@ import 'swiper/css/scrollbar';
 import Loading from './Loading'
 
 const CDDStudent = () => {
+    window.scrollTo(0, 0)
     const [loading, setLoading] = useState(true)
     const [student, setStudent] = useState([])
     const [projects, setProjects] = useState([])
