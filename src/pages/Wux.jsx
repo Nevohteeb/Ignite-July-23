@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import Loading from '../components/Loading'
 
 const Wux = () => {
+  window.scrollTo(0, 0)
     const [students, setStudents] = useState([])
     const [loading, setLoading] = useState(true)
 

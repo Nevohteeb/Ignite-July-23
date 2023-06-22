@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Adam Toh",
             "email": "johndoe@example.com",
-            "headshot": "./headshots/test.jpg",
+            "headshot": "./headshots/cdd/adam.jpg",
             "behance": "",
             "personal_blurb": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
             "linkedin": "",
@@ -196,7 +196,7 @@
             "id": 3,
             "name": "Ben Lock",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/ben.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -292,7 +292,7 @@
             "id": 4,
             "name": "Cassy Winter",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/cassy.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -386,9 +386,9 @@
 
         {
             "id": 5,
-            "name": "Ethan Olsen",
+            "name": "Cindy Zhen",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/cindy.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -482,9 +482,9 @@
 
         {
             "id": 6,
-            "name": "Finn Handley",
+            "name": "Ethan Olsen",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/ethan.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -578,9 +578,9 @@
 
         {
             "id": 7,
-            "name": "Iraia Wereta",
+            "name": "Finn Handley",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/finn.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -674,9 +674,9 @@
 
         {
             "id": 8,
-            "name": "Jaden Clarke",
+            "name": "Iraia Wereta",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/iraia.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -770,9 +770,9 @@
 
         {
             "id": 9,
-            "name": "Marley TeWiki-Mu",
+            "name": "Jaden Clarke",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/jaden.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -866,9 +866,9 @@
 
         {
             "id": 10,
-            "name": "Libbie Hutt",
+            "name": "Marley TeWiki-Mu",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/marley.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -962,9 +962,9 @@
 
         {
             "id": 11,
-            "name": "Gene Saiwan",
+            "name": "Libbie Hutt",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/libbie.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -1058,9 +1058,9 @@
 
         {
             "id": 12,
-            "name": "Sammy Fisher",
+            "name": "Gene Saiwan",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/gene.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -1154,9 +1154,9 @@
 
         {
             "id": 13,
-            "name": "Saskia Guymer",
+            "name": "Sammy Fisher",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/sammy.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -1250,9 +1250,9 @@
 
         {
             "id": 14,
-            "name": "Sophie Wickens",
+            "name": "Saskia Guymer",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/saskia.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -1346,9 +1346,9 @@
 
         {
             "id": 15,
-            "name": "Tarina Pendlebury",
+            "name": "Sophie Wickens",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/sophie.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -1442,9 +1442,9 @@
 
         {
             "id": 16,
-            "name": "Xiaolin Zhen",
+            "name": "Tarina Pendlebury",
             "email": "johndoe@example.com",
-            "headshot": "https://placehold.co/600x400",
+            "headshot": "./headshots/cdd/tarina.jpg",
             "github": "",
             "linkedin": "",
             "portfolio_link": "",
@@ -1535,5 +1535,7 @@
                 }
             ]
         }
+
+        
     ]
 }
