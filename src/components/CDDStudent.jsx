@@ -40,7 +40,6 @@ const CDDStudent = () => {
             return (
                 <div className="project-container-cdd" data-aos="fade-up" data-aos-duration="1500">
                     <h4 className="project-name">{project.project_name}</h4>
-                    <h5 className="project-link-cdd">{project.project_link}</h5>
                     <p className="project-blurb">{project.project_description}</p>
                     <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
