@@ -31,7 +31,6 @@ body.no-scroll {
 /* nav */
 #topnav {
   background: transparent;
-  backdrop-filter: blur(15px);
   display: flex;
   padding: 20px;
 }
