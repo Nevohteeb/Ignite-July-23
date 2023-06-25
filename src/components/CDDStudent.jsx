@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -19,6 +19,7 @@ const CDDStudent = () => {
     const [fullscreenImage, setFullscreenImage] = useState(null);
 
     const {id} = useParams()
+    const navigate = useNavigate()
 
     useEffect(() => {
         const index = (id - 1);
@@ -33,6 +34,10 @@ const CDDStudent = () => {
                 console.log(error)
             })
     }, [id])
+
+    const handleClick = () => {
+        navigate(-1)
+    }
 
     const Projects = ({projects}) => {
         const mappedProjects = projects.map((project) => {
@@ -93,6 +98,8 @@ const CDDStudent = () => {
         </div>
         {/* Page Container */}
         <div className="page-container">
+
+            <button onClick={handleClick} className="back-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i><span className="back-btn-txt"> Back</span></button>
 
             {/* Personal Details Container */}
             <div className="personal-info" data-aos="fade-up" data-aos-duration="1500">
