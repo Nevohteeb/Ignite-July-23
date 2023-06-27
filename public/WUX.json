@@ -12,85 +12,85 @@
             "projects": [
                 {
                     "project_id": 1,
-                    "project_name": "Project 1",
+                    "project_name": "Flur",
                     "project_description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
                     "project_link": "link",
                     "project_images": [
                         {
                             "image_id" : "image1",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Flur HomePage",
+                            "image_url": "./projects/webux/christine/flur/flurHomePage.png"
                         },
                         {
                             "image_id" : "image2",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Flur Catering Page",
+                            "image_url": "./projects/webux/christine/flur/flurCateringPage.png"
                         },
                         {
                             "image_id" : "image3",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Flur Contact Page",
+                            "image_url": "./projects/webux/christine/flur/flurContact.png"
                         },
                         {
                             "image_id" : "image4",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Flur About Page",
+                            "image_url": "./projects/webux/christine/flur/flurAbout.png"
                         }
                     ]
                 },
                 {
                     "project_id": 2,
-                    "project_name": "Project 2",
+                    "project_name": "North",
                     "project_description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
                     "project_link": "link",
                     "project_images": [
                         {
                             "image_id" : "image1",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "North Homepage",
+                            "image_url": "./projects/webux/christine/north/northHomePage.png"
                         },
                         {
                             "image_id" : "image2",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "North Homepage Alternative",
+                            "image_url": "./projects/webux/christine/north/northHomeAlternative.png"
                         },
                         {
                             "image_id" : "image3",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "North Filter Search",
+                            "image_url": "./projects/webux/christine/north/northFilterSearch.png"
                         },
                         {
                             "image_id" : "image4",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "North Booked",
+                            "image_url": "./projects/webux/christine/north/northBooked.png"
                         }
                     ]
                 },
                 {
                     "project_id": 3,
-                    "project_name": "Project 3",
+                    "project_name": "Saly Pidgin",
                     "project_description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
                     "project_link": "link",
                     "project_images": [
                         {
                             "image_id" : "image1",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Salty Pidgin Homepage",
+                            "image_url": "./projects/webux/christine/saltyPidgin/saltyHomePage.png"
                         },
                         {
                             "image_id" : "image2",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Salty Pidgin Menu",
+                            "image_url": "./projects/webux/christine/saltyPidgin/saltyMenu.png"
                         },
                         {
                             "image_id" : "image3",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Salty Pidgin Menu Items",
+                            "image_url": "./projects/webux/christine/saltyPidgin/saltyMenuItems.png"
                         },
                         {
                             "image_id" : "image4",
-                            "alt": "alt description",
-                            "image_url": "https://placehold.co/600x400"
+                            "alt": "Salty Pidgin Sign Up",
+                            "image_url": "./projects/webux/christine/saltyPidgin/saltySignUp.png"
                         }
                     ]
                 }

@@ -17,6 +17,7 @@ const CDDStudent = () => {
     const [student, setStudent] = useState([])
     const [projects, setProjects] = useState([])
     const [fullscreenImage, setFullscreenImage] = useState(null);
+    const [projectId, setProjectId] = useState(null)
 
     const {id} = useParams()
     const navigate = useNavigate()
@@ -55,16 +56,16 @@ const CDDStudent = () => {
                         onSwiper={(swiper) => console.log(swiper)}
                     >
                         <SwiperSlide>
-                            <img className="carousel-image" src={project.project_images[0].image_url} alt={project.project_name + ' image 1'} onClick={() => setFullscreenImage(0)}/>
+                            <img className="carousel-image" src={project.project_images[0].image_url} alt={project.project_name + ' image 1'} onClick={() => {setFullscreenImage(0), setProjectId(project.project_id)}}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="carousel-image" src={project.project_images[1].image_url} alt={project.project_name + ' image 2'} onClick={() => setFullscreenImage(1)}/>
+                            <img className="carousel-image" src={project.project_images[1].image_url} alt={project.project_name + ' image 2'} onClick={() => {setFullscreenImage(1), setProjectId(project.project_id)}}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="carousel-image" src={project.project_images[2].image_url} alt={project.project_name + ' image 3'} onClick={() => setFullscreenImage(2)}/>
+                            <img className="carousel-image" src={project.project_images[2].image_url} alt={project.project_name + ' image 3'} onClick={() => {setFullscreenImage(2), setProjectId(project.project_id)}}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="carousel-image" src={project.project_images[3].image_url} alt={project.project_name + ' image 4'} onClick={() => setFullscreenImage(3)}/>
+                            <img className="carousel-image" src={project.project_images[3].image_url} alt={project.project_name + ' image 4'} onClick={() => {setFullscreenImage(3), setProjectId(project.project_id)}}/>
                         </SwiperSlide>
                     </Swiper>
                 </div>
@@ -87,8 +88,8 @@ const CDDStudent = () => {
         {fullscreenImage !== null && (
         <div className="fullscreen">
             <img
-          src={projects[0].project_images[fullscreenImage].image_url}
-          alt={projects[0].project_name + ' fullscreen image'}
+          src={projects[(projectId -1)].project_images[fullscreenImage].image_url}
+          alt={projects[(projectId - 1)].project_name + ' fullscreen image'}
             />
             <button className="fullscreen-close" onClick={() => setFullscreenImage(null)}>Close</button>
         </div>
